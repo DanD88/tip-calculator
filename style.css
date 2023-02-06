@@ -1,0 +1,193 @@
+.container {
+ 
+    background-color: #efefef;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px gray;
+    margin: 0 auto;
+    /* text-align: center; */
+    width: 500px;
+    padding: 10px;
+  }
+
+  /* .input {
+    
+  } */
+
+  .calculator {
+    
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+  }
+  
+
+  h1 {
+    color: #0f0f0f;
+    font-weight: 800;
+  }
+
+/* #calculator {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  } */
+  
+  input {
+    margin: 10px 0;
+  }
+  
+  button {
+    margin: 10px;
+  }
+  
+  #error-message {
+    color: red;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .buttons button {
+    background: linear-gradient(to bottom, #00474a, #084c4e);
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    box-shadow: 2px 2px 2px gray;
+    text-shadow: 1px 1px gray;
+  }
+  
+  .buttons button:hover {
+    /* background: linear-gradient(to bottom, #0080ff, #00bfff);
+    color: #000000; */
+    cursor:pointer;
+  }
+
+  .buttons button:focus {
+    background: #00bb28;
+  }
+
+  .reset {
+    background-color: gray;
+    border: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px gray;
+    text-shadow: 1px 1px gray;
+    padding: 10px 20px;
+  }
+
+  .reset:hover {
+    cursor: pointer;
+    background-color: #d0ccda;
+  }
+  
+
+  input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid gray;
+    font-size: 1.2em;
+    border-radius:10px;
+  }
+  
+  input:focus {
+    background-color: lightyellow;
+  }
+
+  .tip-percentage {
+    margin-top: 1em;
+  }
+  
+  label {
+    font-size: 1.2em;
+    color: #0f0f0f;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+   
+  }
+
+  .amount-tip {
+    background-color: #014748;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    width: 420px;
+    height: 150px;
+    margin-top: 1em;;
+  }
+
+  .amount-tip div {
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  .tip {
+    background-color: gray;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .total {
+    background-color: gray;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  @media (max-width: 600px) {
+    .container {
+      flex-wrap: wrap;
+      /* margin: 0 auto; */
+      width: auto;
+    }
+
+    .calculator {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .amount-tip {
+      justify-content: center;
+      width: 70%;
+      margin-bottom: 1em;
+    }
+  
+    #amount {
+      width: 90%;
+      margin-bottom: 10px;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 1em 0;
+    }
+
+    .buttons button {
+      padding: 15px 20px;
+      border-radius: 10px;
+      font-size: 1.0em;
+    ;
+    }
+  
+    .tip-button {
+      width: 100%;
+    }
+  }
+  
+
+    
